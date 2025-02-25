@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lighthouse Bistro</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+
+
+</style> 
+<link href="Styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+<style>
+    /* Increase font size for all form elements */
+    form {
+        font-size: 19px; /* Adjust the size as needed */
+    }
+
+    /* Increase font size for specific labels */
+    label {
+        font-size: 21px; /* Adjust the size as needed */
+    }
+
+    /* Increase font size for specific input fields */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    select,
+    textarea {
+        font-size: 15px; /* Adjust the size as needed */
+    }
+</style>
+
+  <header>
+    <h1>STEVE HUDSON</h1>
+  </header>
+  <style>
+  li {
+    font-size: 20px; 
+  }
+</style>
+
+    <nav>
+	<ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="Listing.html">Active Listings</a></li>
+      <li id="homepage">Contact</li>
+      <li><a href="Sitemap.html">Sitemap</a></li>
+	 </ul>
+    </nav>
+    <main>
+    <h2>Contact us for your Dream Home</h2>
+	<form method="post" action="mailto:Stevehudson3456@gmail.com">
+    <label for="fName">First Name:</label><br>
+        <input type="text" id="fName" name="fName"  required><br>
+
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="phone"> Your Phone NO:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. (647)198-456"required ><br>
+
+        <label for="email"> Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="Property">Type of Property:</label><br>
+        <select id="Property" name="Property" required>
+            <option value="house">House</option>
+            <option value="Apartment">Apartment</option>
+            <option value="Villa">Villa</option>
+            <option value="condominium">Condominium</option>
+        </select><br>
+        <label for="story">Number of Stories:</label><br>
+        <input type="number" id="story" name="story" required min="1" max="3"><br>
+
+
+        <label for="bedroom">Number of Bedrooms:</label><br>
+        <input type="number" id="bedroom" name="bedroom" required min="1" max="8"><br>
+
+        <label for="bathroom">Number of Bathrooms:</label><br>
+        <input type="number" id="bathroom" name="bathroom" required min="1" max="5"><br>
+
+        
+
+        <label for="priceRange">Price Range:</label><br>
+        <input type="text" id="priceRange" name="priceRange" placeholder="e.g., $200000" required pattern="\$\d+"><br>
+
+        <label for="comments"> Comments:</label><br>
+        <textarea type="textarea" id="comments" name="comments" rows="5" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+	</form>
+    </main>
+   <aside>
+    <figure>
+    <img src="images/AgentPhoto.jpeg" width="350" height="350" alt="Agent photo">
+		<br>Phone:  (917) 123-90876
+		<br>Email: <b><a href="mailto:Stevehudson3456@gmail.com">Stevehudson3456@gmail.com</a></b>
+    </figure>
+  </aside> 
+  <footer>
+    <p> &copy; Syeda Farwah Fatema / 301387455 / Semester 1 / </p>
+  </footer>
+ </div>
+</body>
+</html>
+
+
