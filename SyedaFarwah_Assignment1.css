@@ -1,0 +1,145 @@
+body {
+    font-family: Times New Roman;
+    margin: 40px;
+    padding: 0;
+    border: 3px solid black; 
+    background-color: powderblue;
+    color: #333;
+    animation: fadeIn 1s ease-in;
+}
+
+
+h1 {
+    text-align: center;
+    color: #8136b9;
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #333; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px; 
+    margin: auto;
+}
+
+label {
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#tableContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease-out;
+    border: 3px solid #333; 
+}
+
+td, th {
+    border: 2px solid #ddd; 
+    padding: 15px; 
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFEBEE; 
+}
+
+tr:nth-child(even) {
+    background-color: #E3F2FD; 
+}
+
+td:nth-child(odd) {
+    background-color: #FCE4EC; 
+}
+
+td:nth-child(even) {
+    background-color: #E8F5E9; 
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 5px solid #b13b88;
+    background: linear-gradient(135deg, #c66969, #76d1dd);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #b00f48;
+}
